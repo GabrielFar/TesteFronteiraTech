@@ -1,0 +1,46 @@
+div{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+input{
+    width: 100%;
+}
+.clNumeros, .clOperacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+#idApagar:hover, .clOperacoes:hover, .clNumeros:hover{
+    background-color: gray;
+}
+#idCorpo{
+    display: inline-block;
+    width: 75vw;
+    max-width: 201px;
+    grid: 2px;
+    min-width: 190px;
+}
+#idParteSuperior{
+    display: flex;
+}
+#idTela{
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+#idApagar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    padding-left: 4px;
+    padding-right: 2px;
+}
+#idNumerosEOperacoes{
+    min-width: 140px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
