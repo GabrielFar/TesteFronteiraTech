@@ -11,7 +11,11 @@ div{
 }
 input{
     width: 100%;
-    font-size: 40px;
+    font-size: 40px;   
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
 }
 .clNumeros, .clOperacoes{
     display: flex;
