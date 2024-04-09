@@ -6,10 +6,10 @@ var tela = document.getElementById("idInput")
 function igualar() {
     valor2 = Number(tela.value)
     if (operacao == "+"){
-        tela.value = Math.round((valor1 + valor2) * 10) / 10
+        tela.value = Math.round((valor1 + valor2) * 1000000000) / 1000000000
 
     } else if (operacao == "-"){
-        tela.value = Math.round((valor1 - valor2) * 10) / 10
+        tela.value = Math.round((valor1 - valor2) * 1000000000) / 1000000000
 
     } else if (operacao == "*"){
         tela.value = Math.round(valor1 * valor2 * 1000000000)/1000000000
